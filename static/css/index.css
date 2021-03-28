@@ -54,10 +54,6 @@ footer img{
     width : auto;
 }
 
-footer button a{
-    color : white;
-}
-
 .auth_window {
     position: absolute;
     top : 0;
