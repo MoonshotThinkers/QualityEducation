@@ -22,6 +22,10 @@ main div a{
     text-decoration: none;
 }
 
+main div a:active{
+    transform: scale(0.95);
+}
+
 nav .authorise {
     padding: 0 10px;
 }
@@ -46,9 +50,15 @@ footer{
     height: auto;
 }
 footer .row{
-    max-width : 600px;
+    max-width : 800px;
     width : 100vw;
     margin: 10px;
+    cursor: pointer;
+    transition: transform linear 0.3s;
+    justify-content: center;
+}
+footer .row:hover{
+    transform: scale(1.05);
 }
 footer img{
     max-width : 200px;
