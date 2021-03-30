@@ -1,0 +1,17 @@
+body{
+    min-width : 400px;
+}
+.card img{
+    width : 150px;
+    border-radius: 20px;
+}
+main > h2{
+    margin: 10px 0;
+}
+
+main .row .col{
+    min-width : 400px;
+    background-color: lightgreen;
+    border-radius: 20px;
+    padding: 5px;
+}

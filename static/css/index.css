@@ -1,24 +1,29 @@
 body {
-    width: 98.9vw;
     min-height: 100vh;
-    height : auto;
-    margin: 0;
-    padding: 0;
 }
 nav{
-    width : 100%;
+    background-color: aqua;
 }
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    padding: 0;
     min-height: 90vh;
-    height: auto;
 }
 
-main section:nth-child(3){
-    grid-column: span 2;
+main div section{
+    min-width: 250px;
+    min-height: 300px;
+    border-radius : 20px
+}
+
+main div a{
+    min-width: 250px;
+    min-height : 200px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+main div a:active{
+    transform: scale(0.95);
 }
 
 nav .authorise {
@@ -41,13 +46,19 @@ nav .authorise button:focus {
     outline: thick double white;
 }
 footer{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around; */
-    min-height : 80vh;
+    min-height : 200vh;
     height: auto;
+}
+footer .row{
+    max-width : 800px;
+    width : 100vw;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform linear 0.3s;
+    justify-content: center;
+}
+footer .row:hover{
+    transform: scale(1.05);
 }
 footer img{
     max-width : 200px;
