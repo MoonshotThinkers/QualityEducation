@@ -10,11 +10,13 @@ main {
 }
 
 main div section{
+    min-width: 250px;
     min-height: 300px;
     border-radius : 20px
 }
 
 main div a{
+    min-width: 250px;
     min-height : 200px;
     border-radius: 20px;
     text-decoration: none;
